@@ -3,8 +3,8 @@
 module.exports = class Nmea2000 {
 
     static makeMessagePGN127502(instance, channels) {
-        retval = "";
-        now = (new Date()).toISOString();
+        var retval = "";
+        var now = (new Date()).toISOString();
         return(now + ",6,127502,0,255,8," + Nmea2000.makeSwitchbankMessageComponent(instance, channels));
     }
 
