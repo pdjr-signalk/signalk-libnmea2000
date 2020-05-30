@@ -1,7 +1,7 @@
 # signalk-libnmea2000
 NMEA 2000 support library for Signal K node plugins.
 
-__static makeMessagePGN127502(*instance*, *channels*)__
+__static makeMessagePGN127502(int *instance*, int[] *channels*)__
 
 Returns a PGN127502 (Binay Switch Control) string suitable for transmission
 via an ActiSense NMEA bus interface.
