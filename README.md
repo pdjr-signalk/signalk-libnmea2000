@@ -1,6 +1,16 @@
 # signalk-libnmea2000
 NMEA 2000 support library for Signal K node plugins.
 
+```
+const Nmea2000 = require('./signalk-libnmea2000/Notification.js');
+
+var instance = 10;
+var channels = Array(26).fill(0);
+
+var message = Nmea2000.makeMessagePGN127502(instance, channels);
+console.log(message);
+```
+
 __static makeMessagePGN127502(int *instance*, int[] *channels*)__
 
 Returns a PGN127502 (Binay Switch Control) string suitable for transmission
