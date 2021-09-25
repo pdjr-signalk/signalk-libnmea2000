@@ -31,7 +31,7 @@ The first relay on the target is specified by *channels*[0] and the length of
 the array cannot exceed the NMEA limit of 28 channels.
 Each array entry must have one of the values 0 (off), 1 (on) or 3 (no change).
 
-__static makeMessagePGN127502FromChannel(int *instance*, int *channel*, int *value*)__
+__static makeMessagePGN127502ForChannel(int *instance*, int *channel*, int *value*)__
 
 Returns an Actisense format PGN127502 (Binary Switch Control) message string
 which will set the state of relay output *channel* on the switchbank *instance*
