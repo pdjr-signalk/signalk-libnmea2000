@@ -15,7 +15,7 @@ console.log(message);
 ```
 
 __static makeMessagePGN127502(int *instance*, int[] *channels*)__\
-__static makeMessagePGN127502(int *instance, int channel, int state)__
+__static makeMessagePGN127502(int *instance*, int *channel*, int *state*)__
 
 Returns an Actisense format PGN127502 (Binary Switch Control) message string
 which can be used to set the state of one or more relay output channels on
