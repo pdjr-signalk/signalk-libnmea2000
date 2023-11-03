@@ -1,0 +1,19 @@
+{
+  "name": "signalk-libnmea2000",
+  "version": "1.0.0",
+  "description": "NMEA 2000 support library for Signal K node plugins.",
+  "main": "Nmea2000.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdjr-signalk/signalk-libnmea2000.git"
+  },
+  "author": "Paul Reeve <preeve_at_pdjr_dot_eu>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pdjr-signalk/signalk-libnmea2000/issues"
+  },
+  "homepage": "https://github.com/pdjr-signalk/signalk-libnmea2000#readme"
+}
