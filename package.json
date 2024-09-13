@@ -4,7 +4,10 @@
   "description": "NMEA 2000 support library for Signal K node plugins.",
   "main": "Nmea2000.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "yq -o=json -I=2 resources/openApi.yaml > resources/openApi.json",
+    "test": "echo \"Error: no test specified\"",
+    "build": "tsc",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
